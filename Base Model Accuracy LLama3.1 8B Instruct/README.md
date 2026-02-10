@@ -27,14 +27,14 @@ The experiment provides baseline accuracy for **simple, moderate, and challengin
 ## Results
 
 ### Overall Baseline Accuracy
-| Strategy           | Execution Accuracy (EX) | Validation Accuracy (VA) |
+| Strategy           | Validation Accuracy (VA)  | Execution Accuracy (EX) |
 |------------------|-----------------------|-------------------------|
 | No CoT             | 0.70                  | 0.20                    |
 | Simple CoT         | 0.70                  | 0.21                    |
 | Divide & Conquer   | 0.62                  | 0.16                    |
 
 ### Accuracy by Query Difficulty
-| Strategy           | Simple EX | Simple VA | Moderate EX | Moderate VA | Challenging EX | Challenging VA |
+| Strategy           | Simple VA | Simple EX | Moderate VA | Moderate EX | Challenging VA | Challenging EX |
 |-------------------|-----------|-----------|-------------|-------------|----------------|----------------|
 | No CoT             | 0.72      | 0.23      | 0.60        | 0.13        | 1.00           | 0.00           |
 | Simple CoT         | 0.78      | 0.28      | 0.63        | 0.13        | 0.40           | 0.00           |
