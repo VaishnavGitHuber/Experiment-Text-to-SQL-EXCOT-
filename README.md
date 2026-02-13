@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ### Experiments conducted
 1. GPT5 mini CoT Data generation
 2. Base Model Accuracy LLama3.1 8B Instruct
